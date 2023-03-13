@@ -1,0 +1,78 @@
+.rightPaneBox{
+    
+    flex: 3;
+    font-family: klavika;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    height : calc(100vh - 50px);
+
+}
+.rightPanecontainer{
+    padding: 20px 20px 0 0 ;
+
+}
+.adContainer{
+    margin-top: 10px;
+    font-family: open sans-serif;
+}
+.sponsered{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(124, 118, 118);
+}
+.adImage{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 98%;
+}
+.birthdayImage{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+.birthdaytext{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.onlineFriendImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.onlineFriendImageContain{
+    display: flex;
+    position: relative;
+}
+.onlineFriend{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 14px -6px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 4px 4px 14px -6px rgba(0,0,0,0.58);
+    -moz-box-shadow: 4px 4px 14px -6px rgba(0,0,0,0.58);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.onlineStatus{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:lime;
+    position:absolute;
+
+    margin-top: 30px;   
+}
+.onlineFriendName{
+    margin-left: 10px;
+}
